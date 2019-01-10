@@ -33,4 +33,4 @@ $(call inherit-product, device/sanyo/BEJ2/device.mk)
 PRODUCT_NAME := aosp_bej2
 PRODUCT_DEVICE := BEJ2
 PRODUCT_BRAND := sanyo
-PRODUCT_MODEL := 40TL04
+PRODUCT_MODEL := BEJ2

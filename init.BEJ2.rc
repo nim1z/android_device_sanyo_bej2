@@ -27,7 +27,7 @@ on init
 
 on fs
 
-mount_all /fstab.bej2
+mount_all /fstab.BEJ2
 
 # mount ext4 partitions
 # If you want to boot it from SD card, modify all the 'mmcblk0px' to 'mmcblk1px'.

@@ -16,10 +16,10 @@
 
 # .rc
 PRODUCT_COPY_FILES := \
-	device/sanyo/BEJ2/init.bej2.rc:root/init.bej2.rc \
-	device/sanyo/BEJ2/ueventd.bej2.rc:root/ueventd.bej2.rc \
+	device/sanyo/BEJ2/init.BEJ2.rc:root/init.BEJ2.rc \
+	device/sanyo/BEJ2/ueventd.BEJ2.rc:root/ueventd.BEJ2.rc \
 	device/sanyo/BEJ2/init.tsmode.rc:root/init.tsmode.rc \
-        device/sanyo/BEJ2/fstab.bej2:root/fstab.bej2
+        device/sanyo/BEJ2/fstab.BEJ2:root/fstab.BEJ2
 
 #cmd
 PRODUCT_COPY_FILES += \
