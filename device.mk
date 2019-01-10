@@ -16,10 +16,10 @@
 
 # .rc
 PRODUCT_COPY_FILES := \
-	device/sanyo/BEJ2/init.BEJ2.rc:root/init.freescale.rc \
-	device/sanyo/BEJ2/ueventd.BEJ2.rc:root/ueventd.freescale.rc \
+	device/sanyo/BEJ2/init.freescale.rc:root/init.freescale.rc \
+	device/sanyo/BEJ2/ueventd.freescale.rc:root/ueventd.freescale.rc \
 	device/sanyo/BEJ2/init.tsmode.rc:root/init.tsmode.rc \
-        device/sanyo/BEJ2/fstab.BEJ2:root/fstab.freescale
+        device/sanyo/BEJ2/fstab.freescale:root/fstab.freescale
 
 #cmd
 PRODUCT_COPY_FILES += \
