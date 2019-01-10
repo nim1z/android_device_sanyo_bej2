@@ -30,7 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/sanyo/BEJ2/device.mk)
 
-PRODUCT_NAME := aosp_bej2
+PRODUCT_NAME := aosp_BEJ2
 PRODUCT_DEVICE := BEJ2
 PRODUCT_BRAND := sanyo
 PRODUCT_MODEL := BEJ2
