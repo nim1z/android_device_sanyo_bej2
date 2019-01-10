@@ -28,7 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 # Inherit from those products. Most specific first.
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-$(call inherit-product, device/sanyo/bej2/device.mk)
+$(call inherit-product, device/sanyo/BEJ2/device.mk)
 
 PRODUCT_NAME := aosp_bej2
 PRODUCT_DEVICE := BEJ2

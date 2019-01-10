@@ -16,29 +16,29 @@
 
 # .rc
 PRODUCT_COPY_FILES := \
-	device/sanyo/bej2/init.bej2.rc:root/init.bej2.rc \
-	device/sanyo/bej2/ueventd.bej2.rc:root/ueventd.bej2.rc \
-	device/sanyo/bej2/init.tsmode.rc:root/init.tsmode.rc \
-        device/sanyo/bej2/fstab.bej2:root/fstab.bej2
+	device/sanyo/BEJ2/init.bej2.rc:root/init.bej2.rc \
+	device/sanyo/BEJ2/ueventd.bej2.rc:root/ueventd.bej2.rc \
+	device/sanyo/BEJ2/init.tsmode.rc:root/init.tsmode.rc \
+        device/sanyo/BEJ2/fstab.bej2:root/fstab.bej2
 
 #cmd
 PRODUCT_COPY_FILES += \
-        device/sanyo/bej2/cmd/mlan_tool:system/bin/mlan_tool \
-        device/sanyo/bej2/cmd/set_macaddr:system/bin/set_macaddr \
-	device/sanyo/bej2/cmd/ts_calibrator:root/sbin/ts_calibrator
+        device/sanyo/BEJ2/cmd/mlan_tool:system/bin/mlan_tool \
+        device/sanyo/BEJ2/cmd/set_macaddr:system/bin/set_macaddr \
+	device/sanyo/BEJ2/cmd/ts_calibrator:root/sbin/ts_calibrator
 
 # wifi
 PRODUCT_COPY_FILES += \
-        device/sanyo/bej2/wifi/mlan.ko:system/wifi/mlan.ko \
-        device/sanyo/bej2/wifi/sd8787.ko:system/wifi/sd8787.ko\
-        device/sanyo/bej2/wifi/sd8787_uapsta.bin:system/wifi/sd8787_uapsta.bin \
-	device/sanyo/bej2/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
-	device/sanyo/bej2/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+        device/sanyo/BEJ2/wifi/mlan.ko:system/wifi/mlan.ko \
+        device/sanyo/BEJ2/wifi/sd8787.ko:system/wifi/sd8787.ko\
+        device/sanyo/BEJ2/wifi/sd8787_uapsta.bin:system/wifi/sd8787_uapsta.bin \
+	device/sanyo/BEJ2/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
+	device/sanyo/BEJ2/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 #keylayout
 PRODUCT_COPY_FILES += \
-	device/sanyo/bej2/keylayout/Benesse.kl:system/usr/keylayout/Benesse.kl \
-	device/sanyo/bej2/keylayout/Rohm-CTP-BU21023GUL.idc:system/usr/idc/Rohm-CTP-BU21023GUL.idc
+	device/sanyo/BEJ2/keylayout/Benesse.kl:system/usr/keylayout/Benesse.kl \
+	device/sanyo/BEJ2/keylayout/Rohm-CTP-BU21023GUL.idc:system/usr/idc/Rohm-CTP-BU21023GUL.idc
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \

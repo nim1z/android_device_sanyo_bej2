@@ -179,16 +179,6 @@ on property:vold.decrypt=trigger_shutdown_framework
     # Set permission for IIM node
     symlink /dev/mxc_iim /dev/mxc_mem
 
-    # 3D acceleration property
-    setprop debug.sf.showfps    0
-    setprop debug.sf.enable_hgl 0
-    setprop debug.egl.hw	0
-
-    # fsl omx graphic manager media framework property
-    #setprop media.omxgm.enable-player 1
-    #setprop media.omxgm.enable-record 1
-    #setprop media.omxgm.enable-scan 1
-
     # set video render type
     setprop rw.VIDEO_RENDER_NAME video_render.overlay
 
@@ -227,7 +217,6 @@ on property:vold.decrypt=trigger_shutdown_framework
     setprop sys.overscan.percent 0
 
     # calibration touch screen
-    exec /sbin/ts_calibrator
     service ts_calibrator /sbin/ts_calibrator
     class main
     oneshot
