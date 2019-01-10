@@ -16,10 +16,10 @@
 
 # .rc
 PRODUCT_COPY_FILES := \
-	device/sanyo/BEJ2/init.BEJ2.rc:root/init.BEJ2.rc \
-	device/sanyo/BEJ2/ueventd.BEJ2.rc:root/ueventd.BEJ2.rc \
+	device/sanyo/BEJ2/init.BEJ2.rc:root/init.freescale.rc \
+	device/sanyo/BEJ2/ueventd.BEJ2.rc:root/ueventd.freescale.rc \
 	device/sanyo/BEJ2/init.tsmode.rc:root/init.tsmode.rc \
-        device/sanyo/BEJ2/fstab.BEJ2:root/fstab.BEJ2
+        device/sanyo/BEJ2/fstab.BEJ2:root/fstab.freescale
 
 #cmd
 PRODUCT_COPY_FILES += \
@@ -72,7 +72,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
         ro.config.low_ram=true \
         ro.sf.lcd_density=160 \
 	wifi.interface=wlan0 \
-	wifi.supplicant_scan_interval=15
+	wifi.supplicant_scan_interval=15 \
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_CHARACTERISTICS := tablet
