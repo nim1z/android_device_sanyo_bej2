@@ -69,7 +69,6 @@ PRODUCT_PACKAGES := \
 
 PRODUCT_PROPERTY_OVERRIDES := \
 	hwui.render_dirty_regions=false \
-        ro.config.low_ram=true \
         ro.sf.lcd_density=160 \
 	wifi.interface=wlan0 \
 	wifi.supplicant_scan_interval=15 
