@@ -72,7 +72,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
         ro.config.low_ram=true \
         ro.sf.lcd_density=160 \
 	wifi.interface=wlan0 \
-	wifi.supplicant_scan_interval=15 \
+	wifi.supplicant_scan_interval=15 
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_CHARACTERISTICS := tablet
