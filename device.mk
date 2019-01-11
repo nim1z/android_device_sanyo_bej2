@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
 
 #keylayout
 PRODUCT_COPY_FILES += \
-	device/sanyo/BEJ2/keylayout/Benesse.kl:system/usr/keylayout/Benesse.kl \
+	device/sanyo/BEJ2/keylayout/Benesse.kl:system/usr/keylayout/Rohm-CTP-BU21023GUL-Key.kl \
 	device/sanyo/BEJ2/keylayout/Rohm-CTP-BU21023GUL.idc:system/usr/idc/Rohm-CTP-BU21023GUL.idc
 
 # These are the hardware-specific features

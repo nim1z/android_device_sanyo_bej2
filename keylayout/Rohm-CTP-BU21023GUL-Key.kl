@@ -1,5 +1,5 @@
 key 158   BACK              WAKE_DROPPED
-key 139   MENU              WAKE_DROPPED
+key 139   APP_SWITCH        WAKE_DROPPED
 key 108   BUTTON_A          WAKE_DROPPED
 key 103   BUTTON_B          WAKE_DROPPED
 key 102   HOME              WAKE
