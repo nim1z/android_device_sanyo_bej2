@@ -51,8 +51,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
 	com.android.future.usb.accessory \
-	libGLES_android \
-	egl \
+	swiftshader_top_release \
+	egl.cfg \
 	wpa_supplicant \
 	hostapd \
 	NotoColorEmoji.ttf \
@@ -67,6 +67,7 @@ PRODUCT_PACKAGES += \
 	iwevent 
 
 PRODUCT_PROPERTY_OVERRIDES := \
+	ro.config.low_ram=true \
 	hwui.render_dirty_regions=false \
         ro.sf.lcd_density=160 \
 	wifi.interface=wlan0 \

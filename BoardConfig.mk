@@ -39,7 +39,7 @@ HAVE_SELINUX := false
 TARGET_SEC_INTERNAL_STORAGE := false
 
 TARGET_BOOTLOADER_BOARD_NAME := BEJ2
-#BOARD_EGL_CFG := device/sanyo/40TL04/egl.cfg
+BOARD_EGL_CFG := device/sanyo/BEJ2/egl.cfg
 
 #USE_OPENGL_RENDERER := false
 
