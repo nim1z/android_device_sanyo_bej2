@@ -15,7 +15,7 @@
 #
 
 # .rc
-PRODUCT_COPY_FILES := \
+PRODUCT_COPY_FILES += \
 	device/sanyo/BEJ2/init.freescale.rc:root/init.freescale.rc \
 	device/sanyo/BEJ2/ueventd.freescale.rc:root/ueventd.freescale.rc \
 	device/sanyo/BEJ2/init.tsmode.rc:root/init.tsmode.rc \
@@ -66,7 +66,7 @@ PRODUCT_PACKAGES += \
 	iwgetid \
 	iwevent 
 
-PRODUCT_PROPERTY_OVERRIDES := \
+PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.low_ram=true \
 	hwui.render_dirty_regions=false \
         ro.sf.lcd_density=160 \
