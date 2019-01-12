@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
 
 #keylayout
 PRODUCT_COPY_FILES += \
-	device/sanyo/BEJ2/keylayout/Benesse.kl:system/usr/keylayout/Rohm-CTP-BU21023GUL-Key.kl \
+	device/sanyo/BEJ2/keylayout/Rohm-CTP-BU21023GUL-Key.kl:system/usr/keylayout/Rohm-CTP-BU21023GUL-Key.kl \
 	device/sanyo/BEJ2/keylayout/Rohm-CTP-BU21023GUL.idc:system/usr/idc/Rohm-CTP-BU21023GUL.idc
 
 # These are the hardware-specific features
@@ -49,10 +49,10 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
         frameworks/native/data/etc/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml
 
-PRODUCT_PACKAGES := \
+PRODUCT_PACKAGES += \
 	com.android.future.usb.accessory \
 	libGLES_android \
-	egl.cfg \
+	egl \
 	wpa_supplicant \
 	hostapd \
 	NotoColorEmoji.ttf \
@@ -66,12 +66,12 @@ PRODUCT_PACKAGES := \
 	iwgetid \
 	iwevent 
 
-
 PRODUCT_PROPERTY_OVERRIDES := \
 	hwui.render_dirty_regions=false \
         ro.sf.lcd_density=160 \
 	wifi.interface=wlan0 \
-	wifi.supplicant_scan_interval=15 
+	wifi.supplicant_scan_interval=15 \
+	persist.sys.timezone = Asia/Tokyo
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_CHARACTERISTICS := tablet
