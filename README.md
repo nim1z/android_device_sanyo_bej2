@@ -1,6 +1,6 @@
 # android_device_sanyo_bej2
 android device configuration for 40TL04(BEJ2)
-for Android-4.4.4_r2
+for Android-4.4.4_r2  
 after build, please   
 adb shell  
 ln -s /system/lib/egl/libGLES_android.so /system/lib/egl/libGLES_imx51.so  
